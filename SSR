@@ -1,0 +1,12 @@
+获得root权限：sudo -i
+
+编辑sshd_config：vi /etc/ssh/sshd_config
+
+安装wget：yum -y install wget
+
+安装bbrplus:wget "https://github.com/chiakge/Linux-NetSpeed/raw/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+
+
+秋水逸冰ssr4合一脚本：wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+chmod +x shadowsocks-all.sh
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
